@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Figtree;
+    src: url(../fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Figtree-Bold;
+    src: url(../fonts/static/Figtree-ExtraBold.ttf);
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 100vh;
+
+    padding: 0 5vw;
+}
+
+main {
+    background-color: #ffffff;
+    border: 1px solid black;
+    box-shadow: rgba(17, 17, 17, 1) 8px 8px 0px;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    cursor: pointer;
+
+    max-width: 384px;
+}
+
+.post-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.post-content .post-card {
+    background-color: #f4d04e;
+    font-family: Figtree-Bold;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.post-content .post-date {
+    color: #6b6b6b;
+}
+
+.post-content .post-title {
+    font-family: Figtree-Bold;
+    font-size: 1.71em;
+}
+
+.post-content .post-text {
+    color: #6b6b6b;
+    font-size: 1.14em;
+}
+
+.post-autor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.post-autor .autor-avatar {
+    max-height: 2.28em;
+}
+
+.post-autor .autor-nome {
+    font-family: Figtree-Bold;
+}
